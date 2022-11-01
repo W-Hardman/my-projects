@@ -338,7 +338,7 @@ def clean_itemised_billing_client():
 
         wb.save(path)
 
-def clean_specs():
+def clean_file():
 
     while os.path.isfile('Client Declaration.xlsx') == False:
         time.sleep(1) 
